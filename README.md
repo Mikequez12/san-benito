@@ -1,4 +1,5 @@
-# San benito-ko agenda 2024 - 25*-ren webgunea ez dago oraindik prest.
+# San benito-ko agenda*
+## Webgunea ez dago oraindik prest.
 ## Mesedez, itxaron
 
 *ez-ofiziala
