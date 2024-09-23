@@ -1,5 +1,2 @@
-# San benito-ko agenda*
-## Webgunea ez dago oraindik prest.
-## Mesedez, itxaron
-
-*ez-ofiziala
+# DBH4 (San Benito 2024 - 25)
+## Markel Rosco Matxain
