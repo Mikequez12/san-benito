@@ -113,15 +113,9 @@ topbar topbarbutton {
 	position: relative;
 }
 
-topbar topbarbutton:not(:last-child)::after {
-	content: '';
-	display: block;
-	width: 2px;
-	height: 100%;
-	background: white;
-	top: 0;
-	right: -1px;
-	position: absolute;
+topbar topbarbutton {
+	border-right: solid 1px white;
+	border-left: solid 1px white;
 }
 
 topbar topbarbutton:hover {
