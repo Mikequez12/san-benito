@@ -1,1 +1,1 @@
-window.project_dir = 'file:///C:/Users/Taller/Desktop/San%20Benito/DBH4/Github';
+window.project_dir = 'https://mikequez12.github.io/san-benito/pre-alpha';
