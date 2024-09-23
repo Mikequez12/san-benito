@@ -1,0 +1,62 @@
+<head>
+	<link rel='stylesheet' href='../style.css'>
+	<script src='../main.js'></script>
+</head>
+<body>
+	<page>
+		<h1>Ordutegia</h1>
+		<div class='child-50' style='width:70vw;position: relative;'>
+			<horario style='display:inline-block;width: 80%;'></horario>
+			<div id='configuration' style='display:inline-block;width: calc(20% - 5px);top:0;position: absolute;'>
+				<br>
+				<h3 class='hunderline h-nopad'>Pertsonalizatu</h2>
+				<div>
+					<label id='hautazkoa' class='block'>
+						<input onclick='estilizar_celdas_horario()' type='checkbox'/>Hautazkoak markatu
+					</label>
+					<label id='atsedena' class='block'>
+						<input onclick='estilizar_celdas_horario()' type='checkbox'/>Atsedenak markatu
+					</label>
+					<label id='bazkaria' class='block'>
+						<input onclick='estilizar_celdas_horario()' type='checkbox'/>Bazkariak markatu
+					</label>
+				</div>
+				<br>
+				<h3 class="hunderline h-nopad">Detaileak</h2>
+				<label style="padding-left: 5px;display:block;"><b>Kurtxoa:</b><span style="right:0;position:absolute;" id='course'>-</span></label>
+				<label style="padding-left: 5px;display:block;"><b>Taldea:</b><span style="right:0;position:absolute;" id='group'>-</span></label>
+			</div>
+		</div>
+	</page>
+	<!--
+	To do:
+	1. Ordutegia:
+	Vista diaria, semanal.
+	Horas de inicio y fin de cada clase.
+	Aula asignada para cada asignatura.
+	Profesores asignados.
+
+	2. Ekitaldiak:
+	Charlas, talleres, y eventos deportivos o culturales.
+	Excursiones o salidas escolares.
+	Fechas y detalles de las actividades.
+
+	Vacaciones, días festivos y fines de trimestre.
+	Días de reuniones, exámenes globales o consejos escolares.
+
+	3. Materiala:
+	Enlaces a recursos adicionales, como PDFs, diapositivas o vídeos.
+	Libros y textos recomendados por asignatura.
+	Acceso a contenido educativo (cuestionarios, ejercicios).
+
+	4. Agenda
+	Información de contacto de los profesores (email o teléfono de consulta).
+	Horario de tutorías.
+
+	5. Dokumentuak:
+	Acceso a documentos como permisos para excursiones, normativas o instrucciones.
+	-->
+	<script src='../verification.js'></script>
+	<script src='../topbar.js'></script>
+	<script src='horario.js'></script>
+</body>
