@@ -37,4 +37,4 @@ Mesedez, webgueen arazo/feedback-a emateko bakarrik idatzi
 
 ##
 
-> Markel Rosco Matxain
+> Proiektu hau San Benito Ikastolako **ikasle** batek egin du, ez da ofiziala.
