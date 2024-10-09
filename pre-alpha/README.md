@@ -1,5 +1,5 @@
 # San benito ikastolako agenda ez-ofiziala
-## Pre-alpha
+## Pre-alpha v1.0
 ---
 
 ### File Treeview
