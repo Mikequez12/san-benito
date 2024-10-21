@@ -88,9 +88,10 @@ function create_cal(ordutegia) {
 		var row_obj = document.createElement('tr');
 		row.forEach((subject) => {
 			let subject_obj = document.createElement(i<1?'th':'td');
-			if (subject === 'H.F./G.H.' || subject === 'G.H./H.F.' || subject === 'Plastika (2h)' || subject === 'Tekno (2h)') {
+			if (subject[0] === '%') {
 				subject_obj.setAttribute('rowspan', 2);
-			}
+				subject_obj.innerText = subject.slice(1);
+			};
 			if (subject === '!empty') {
 				subject_obj.classList.add('empty');
 			} else {
@@ -101,7 +102,7 @@ function create_cal(ordutegia) {
 					subject_obj.classList.add('bazkaria');
 				}
 
-				if (subject[0] !== '~') {
+				if (subject[0] !== '~' && subject[0] !== '%') {
 					subject_obj.innerText = subject;
 					if (subject === '') {
 						subject_obj.classList.add('empty');
