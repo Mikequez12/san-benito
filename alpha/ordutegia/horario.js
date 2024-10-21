@@ -107,7 +107,7 @@ function create_cal(ordutegia) {
 					if (subject === '') {
 						subject_obj.classList.add('empty');
 					}
-				} else {
+				} else if (subject[0] === '~') {
 					subject_obj.innerText = subject.slice(1);
 					subject_obj.classList.add('hautazkoa');
 				}
