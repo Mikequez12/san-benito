@@ -5,9 +5,6 @@ function topbar_login() {
 		n = '';
 	} // Las vars se resetean así que no son necesarias
 	let redirect = encodeURIComponent(window.location.href.split('?')[0]);
-	if (getURLVariables() !== null) {
-		redirect = getURLVariables().redirect;
-	};
 	window.location.href=`${window.project_dir}/login?redirect=${redirect}`;
 }
 
