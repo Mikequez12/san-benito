@@ -1,1 +1,48 @@
-
+<head>
+	<link rel='stylesheet' href='../style.css'>
+	<script src='../main.js'></script>
+	<script src='../topbar.js'></script>
+	<meta charset='UTF-8'>
+	<title>Saioa hasi - San Benito Ikastolako agenda digitala</title>
+</head>
+<body>
+	<page>
+		<flex><h1>Saioa hasi</h1></flex>
+		<centered>
+			<label>
+				<span>
+					Kurtsoa
+				</span>
+				<select id='course'>
+					<optgroup label='DBH'>
+						<option>DBH1</option>
+						<option>DBH2</option>
+						<option>DBH3</option>
+						<option>DBH4</option>
+					</optgroup>
+					<optgroup label='Batxi'>
+						<option>Batxi 1</option>
+						<option>Batxi 2</option>
+					</optgroup>
+				</select>
+			</label>
+		</centered>
+		<centered>
+			<label>
+				<span>
+					Taldea
+				</span>
+				<select id='group'>
+					<option>A</option>
+					<option>B</option>
+					<option>D</option>
+					<option>E</option>
+				</select>
+			</label>
+		</centered>
+		<centered>
+			<button onclick='login()'>Saioa hasi</button>
+		</centered>
+	</page>
+	<script src='login.js'></script>
+</body>
