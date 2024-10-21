@@ -1,4 +1,4 @@
-window.project_dir = 'https://mikequez12.github.io/san-benito/alpha';
+window.project_dir = 'file:///C:/Users/Taller/Desktop/San%20Benito/DBH4/Github';
 
 notification = document.createElement('notif');
 notification.innerHTML = null;`<p>Atención</p><span>Esto es una notificación de <b>ejemplo</b> y por eso está en castellano.</span><div style='text-align:center;justify-content:center;align-items:center;'><button>Más detalles</button></div>`;
@@ -29,10 +29,12 @@ function getURLVariables() {
 	}
 }
 
-if (getURLVariables().customcol !== undefined) {
-	document.documentElement.style.setProperty('--mint',`hsl(${getURLVariables().customcol},91%,80%)`);
-	document.documentElement.style.setProperty('--dark-mint',`hsl(${getURLVariables().customcol},71%,80%)`);
-	document.documentElement.style.setProperty('--hue',`${getURLVariables().customcol}deg`);
+if (getURLVariables() !== null) {
+	if (getURLVariables().customcol !== undefined) {
+		document.documentElement.style.setProperty('--mint',`hsl(${getURLVariables().customcol},91%,80%)`);
+		document.documentElement.style.setProperty('--dark-mint',`hsl(${getURLVariables().customcol},71%,80%)`);
+		document.documentElement.style.setProperty('--hue',`${getURLVariables().customcol}deg`);
+	}
 }
 
 
