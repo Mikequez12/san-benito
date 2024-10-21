@@ -53,9 +53,9 @@ Markel Rosco Matxain
 |Maiztasuna|Izena|Luzapena
 |:-:|:----|:----|
 |1.|JavaScript|.js
-|2.|HTML|.html
-|3.|SVG|.svg
-|4.|CSS|.css
+|2.|CSS|.css
+|3.|HTML|.html
+|4.|SVG|.svg
 |5.|Markdown|.md
 
 ### Feedback-a eta konponketak
