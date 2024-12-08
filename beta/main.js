@@ -1,4 +1,4 @@
-window.project_dir = 'file:///C:/Users/Taller/Desktop/San%20Benito/DBH4/Github';
+window.project_dir = 'https://mikequez12.github.io/san-benito/beta';
 
 notification = document.createElement('notif');
 notification.innerHTML = null;`<p>Atención</p><span>Esto es una notificación de <b>ejemplo</b> y por eso está en castellano.</span><div style='text-align:center;justify-content:center;align-items:center;'><button>Más detalles</button></div>`;
