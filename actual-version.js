@@ -1,1 +1,1 @@
-window.app_version = 'alpha';
+window.app_version = 'beta';
