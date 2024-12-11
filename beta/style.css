@@ -327,11 +327,11 @@ td:not(.empty) {
 }
 
 tr:last-child td:first-child {
-	border-radius: 0 0 0 5px;
+	border-radius: auto auto auto 5px;
 }
 
 tr:last-child td:last-child {
-	border-radius: 0 0 5px 0;
+	border-radius: auto auto 5px auto;
 }
 
 td.empty {
@@ -641,7 +641,6 @@ loading::before {
 
 .logo span {
 	background: -webkit-linear-gradient(var(--mint), var(--dark-mint));
-	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 15vw;
@@ -675,6 +674,7 @@ loading::before {
 }
 
 .asignaturas > div {
+	break-inside:avoid;
 	box-shadow: var(--shadow);
 	padding: 5px;
 	min-height: 50px;
@@ -793,6 +793,9 @@ loading::before {
 
 .service > div > h2 {
 	font-size: 24px;
+}
+
+.service > div > h4 {
 }
 
 .service:hover {
