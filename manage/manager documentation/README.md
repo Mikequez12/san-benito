@@ -129,7 +129,7 @@ Web orri hau hurrengo programatzeko hizuntzak erabiltzen ditu. Ordena: `gehien e
 |1.|JS (Javascript)|.js|[devdocs.io](devdocs.io/javascript)|
 |2.|CSS|.css|[devdocs.io](devdocs.io/css)|
 |3.|HTML|.html|[whatwg.org](html.spec.whatwg.org)|
-|4.|SVG|.svg|ẁ3.org](w3.org/TR/SVG2)|
+|4.|SVG|.svg|[w3.org](w3.org/TR/SVG2)|
 |5.|Markdown|.md|[markdownguide.org](markdownguide.org)|
 
 ## Informazio gehiago
