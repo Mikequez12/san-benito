@@ -126,11 +126,11 @@ Ahal duzu beste ordutegi bat erabili txantxilo bezala, eta [sintaxia](#sintaxia-
 Web orri hau hurrengo programatzeko hizuntzak erabiltzen ditu. Ordena: `gehien erabilenatik gutxien erabiltzen dena arte`:
 |Top|Hizkuntza|Luzapena|Dokumentazioa|
 |-|-|-|-|
-|1.|JS (Javascript)|.js|[devdocs.io](devdocs.io/javascript)|
-|2.|CSS|.css|[devdocs.io](devdocs.io/css)|
-|3.|HTML|.html|[whatwg.org](html.spec.whatwg.org)|
-|4.|SVG|.svg|[w3.org](w3.org/TR/SVG2)|
-|5.|Markdown|.md|[markdownguide.org](markdownguide.org)|
+|1.|JS (Javascript)|.js|[devdocs.io](https://devdocs.io/javascript)|
+|2.|CSS|.css|[devdocs.io](https://devdocs.io/css)|
+|3.|HTML|.html|[whatwg.org](https://html.spec.whatwg.org)|
+|4.|SVG|.svg|[w3.org](https://w3.org/TR/SVG2)|
+|5.|Markdown|.md|[markdownguide.org](https://markdownguide.org)|
 
 ## Informazio gehiago
 
