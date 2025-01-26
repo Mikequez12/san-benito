@@ -1,4 +1,4 @@
-<div style='text-align:center'><img alt='logo' src='https://mikequez12.github.io/san-benito/beta/icon.ico'></div>
+<div style='text-align:center;justify-content:center;align-items:center;'><img alt='logo' src='https://mikequez12.github.io/san-benito/beta/icon.ico'></div>
 
 # <center>San Benito ikastolako agenda digitalaren dokumentazioa</center>
 
