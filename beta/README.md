@@ -1,5 +1,5 @@
 # San benito ikastolako agenda ez-ofiziala
-## Beta v1.2
+## Beta v1.3
 Markel Rosco Matxain
 
 ### Argitalpen oharrak
@@ -8,6 +8,9 @@ Markel Rosco Matxain
 		Materiala
 	- ##### Software aldaketak
 		(Ez dago)
+	- ##### Dokumentazio aldaketak
+   		Irakasleek dokumentazio berri bat dute pertsonalizazio eta ezagutza aurrera eramateko.
+		Irakasle bat baldin bazara hemen sartu: [github.com](github.com/Mikequez12/san-benito/edit/main/manage/manager%20documentation/README.md)
 - #### Akatsak
 	- ##### Saioa hasteko akatsa
 		Noizbehinka, saioa hasteko botoia sakatzen baduzu formularioan zaudenean, bukatzerakoan orri berera birbideratzen zaitu, eta ondoren `https://.../undefined?...` helbidera. Hori JavaScript errore baten ondorioz da, baina konpondu egingo da.
