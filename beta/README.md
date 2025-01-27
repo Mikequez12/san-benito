@@ -10,7 +10,7 @@ Markel Rosco Matxain
 		(Ez dago)
 	- ##### Dokumentazio aldaketak
    		Irakasleek dokumentazio berri bat dute pertsonalizazio eta ezagutza aurrera eramateko.
-		Irakasle bat baldin bazara hemen sartu: [github.com](github.com/Mikequez12/san-benito/edit/main/manage/manager%20documentation/README.md)
+		Irakasle bat baldin bazara hemen sartu: [github.com](https://github.com/Mikequez12/san-benito/tree/main/manage/manager%20documentation)
 - #### Akatsak
 	- ##### Saioa hasteko akatsa
 		Noizbehinka, saioa hasteko botoia sakatzen baduzu formularioan zaudenean, bukatzerakoan orri berera birbideratzen zaitu, eta ondoren `https://.../undefined?...` helbidera. Hori JavaScript errore baten ondorioz da, baina konpondu egingo da.
