@@ -1,5 +1,5 @@
 let page = document.currentScript.getAttribute('dataload');
-const url = `https://sheets.googleapis.com/v4/spreadsheets/${atob('MTBYckRGUGRNY1ZrY0hrSHRvdG9iSWpwUzJvNTg2aEdUencxTC0td1BZNjA')}/values/${page}?key=AIzaSyCPoCo9JcBf6_p7JqlPDZ_6frBODdw4EAI`;
+const url = `https://sheets.googleapis.com/v4/spreadsheets/${atob('MTBYckRGUGRNY1ZrY0hrSHRvdG9iSWpwUzJvNTg2aEdUencxTC0td1BZNjA')}/values/${page}?key=AIzaSyCPoCo9JcBf6_p7JqlPDZ_6frBODdw4EAI`; //
 
 console.log(url)
 
