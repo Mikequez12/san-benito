@@ -41,19 +41,6 @@ function topbar_dokumentuak() {}
 
 
 
-function getURLVariables() {
-	try {
-  		return Object.fromEntries(
-    		window.location.href
-      		.split('?')[1]
-      		.split('&')
-      		.map(v => v.split('='))
-  		);
-	} catch (TypeError) {
-		return null;
-	}
-}
-
 
 
 document.addEventListener('DOMContentLoaded',(DOMEvent) => {
