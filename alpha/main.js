@@ -1,6 +1,6 @@
 window.project_dir = 'https://mikequez12.github.io/san-benito/alpha';
 if (getURLVariables().force!='true') {
-    indow.location.href = window.location.href.replace('alpha',window.app_version);
+    window.location.href = window.location.href.replace('alpha',window.app_version);
 }
 
 document.addEventListener('DOMContentLoaded',(DOMEvent) => {
