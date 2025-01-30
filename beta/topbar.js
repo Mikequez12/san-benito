@@ -17,7 +17,12 @@ function topbar_login() {
 			customcol = `customcol=${customcol}&`;
 		}
 	}
-	window.location.href=`${window.project_dir}/login?${customcol}redirect=${redirect}`;
+	if (getURLVariables().force == 'true') {
+		force = 'force=true&'
+	} else {
+		force = ''
+	}
+	window.location.href=`${window.project_dir}/login?${force}${customcol}redirect=${redirect}`;
 }
 
 function topbar_main_page() {
@@ -28,7 +33,12 @@ function topbar_main_page() {
 	} else {
 		n = `?${vars}`;
 	};
-	window.location.href=`${window.project_dir}${n}`;
+	if (getURLVariables().force == 'true') {
+		force = '&force=true'
+	} else {
+		force = ''
+	}
+	window.location.href=`${window.project_dir}${n}${force}`;
 }
 
 
@@ -41,7 +51,12 @@ function topbar_ordutegia() {
 	} else {
 		n = `?${vars}`;
 	};
-	window.location.href=`${window.project_dir}/ordutegia${n}`;
+	if (getURLVariables().force == 'true') {
+		force = '&force=true'
+	} else {
+		force = ''
+	}
+	window.location.href=`${window.project_dir}/ordutegia${n}${force}`;
 }
 
 function topbar_ekitaldiak() {
@@ -52,7 +67,12 @@ function topbar_ekitaldiak() {
 	} else {
 		n = `?${vars}`;
 	};
-	window.location.href=`${window.project_dir}/ekitaldiak${n}`;
+	if (getURLVariables().force == 'true') {
+		force = '&force=true'
+	} else {
+		force = ''
+	}
+	window.location.href=`${window.project_dir}/ekitaldiak${n}${force}`;
 }
 
 function topbar_materiala() {
@@ -63,7 +83,12 @@ function topbar_materiala() {
 	} else {
 		n = `?${vars}`;
 	};
-	window.location.href=`${window.project_dir}/materiala${n}`;
+	if (getURLVariables().force == 'true') {
+		force = '&force=true'
+	} else {
+		force = ''
+	}
+	window.location.href=`${window.project_dir}/materiala${n}${force}`;
 }
 
 function topbar_agenda() {
@@ -74,7 +99,12 @@ function topbar_agenda() {
 	} else {
 		n = `?${vars}`;
 	};
-	window.location.href=`${window.project_dir}/agenda${n}`;
+	if (getURLVariables().force == 'true') {
+		force = '&force=true'
+	} else {
+		force = ''
+	}
+	window.location.href=`${window.project_dir}/agenda${n}${force}`;
 }
 
 function topbar_baliabideak() {
@@ -85,7 +115,12 @@ function topbar_baliabideak() {
 	} else {
 		n = `?${vars}`;
 	};
-	window.location.href=`${window.project_dir}/baliabideak${n}`;
+	if (getURLVariables().force == 'true') {
+		force = '&force=true'
+	} else {
+		force = ''
+	}
+	window.location.href=`${window.project_dir}/baliabideak${n}${force}`;
 }
 
 
