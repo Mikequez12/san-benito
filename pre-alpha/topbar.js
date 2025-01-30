@@ -4,7 +4,7 @@ function topbar_login() {
 	if (vars === undefined) {
 		n = '';
 	} // Las vars se resetean así que no son necesarias
-	if (vars.force == 'true') {
+	if (getURLVariables().force == 'true') {
 		force = 'force=true&'
 	} else {
 		force = ''
