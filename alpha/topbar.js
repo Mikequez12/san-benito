@@ -10,7 +10,12 @@ function topbar_login() {
 			redirect = getURLVariables().redirect;
 		}
 	}
-	window.location.href=`${window.project_dir}/login?redirect=${redirect}`;
+	if (getURLVariables().force == 'true') {
+		force = 'force=true&'
+	} else {
+		force = ''
+	}
+	window.location.href=`${window.project_dir}/login?${force}redirect=${redirect}`;
 }
 
 function topbar_main_page() {
