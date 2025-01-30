@@ -1,7 +1,11 @@
 window.project_dir = 'https://mikequez12.github.io/san-benito/alpha';
 if (getURLVariables().force!='true') {
-	window.location.href = window.location.href.replace('alpha','beta');
+    indow.location.href = window.location.href.replace('alpha',window.app_version);
 }
+
+document.addEventListener('DOMContentLoaded',(DOMEvent) => {
+    document.head.appendChild(document.createElement('script')).src='../actual-version.js'
+})
 
 notification = document.createElement('notif');
 notification.innerHTML = null;`<p>Atención</p><span>Esto es una notificación de <b>ejemplo</b> y por eso está en castellano.</span><div style='text-align:center;justify-content:center;align-items:center;'><button>Más detalles</button></div>`;
