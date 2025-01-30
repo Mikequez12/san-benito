@@ -4,7 +4,12 @@ function topbar_login() {
 	if (vars === undefined) {
 		n = '';
 	} // Las vars se resetean así que no son necesarias
-	window.location.href=`${window.project_dir}/login?redirect=${encodeURIComponent(window.location.href.split('?')[0])}`;
+	if (vars.force == 'true') {
+		force = 'force=true&'
+	} else {
+		force = ''
+	}
+	window.location.href=`${window.project_dir}/login?${force}redirect=${encodeURIComponent(window.location.href.split('?')[0])}`;
 }
 
 function topbar_main_page() {
@@ -15,7 +20,12 @@ function topbar_main_page() {
 	} else {
 		n = `?${vars}`;
 	};
-	window.location.href=`${window.project_dir}${n}`;
+	if (vars.force == 'true') {
+		force = '&force=true'
+	} else {
+		force = ''
+	}
+	window.location.href=`${window.project_dir}${n}${force}`;
 }
 
 
@@ -28,7 +38,12 @@ function topbar_ordutegia() {
 	} else {
 		n = `?${vars}`;
 	};
-	window.location.href=`${window.project_dir}/ordutegia${n}`;
+	if (vars.force == 'true') {
+		force = '&force=true'
+	} else {
+		force = ''
+	}
+	window.location.href=`${window.project_dir}/ordutegia${n}${force}`;
 }
 
 function topbar_ekitaldiak() {}
