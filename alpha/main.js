@@ -1,10 +1,11 @@
 window.project_dir = 'https://mikequez12.github.io/san-benito/alpha';
-if (getURLVariables().force!='true') {
-    window.location.href = window.location.href.replace('alpha',window.app_version);
-}
 
 document.addEventListener('DOMContentLoaded',(DOMEvent) => {
     document.head.appendChild(document.createElement('script')).src='https://mikequez12.github.io/san-benito/actual-version.js';
+
+	if (getURLVariables().force!='true') {
+		window.location.href = window.location.href.replace('alpha',window.app_version);
+	}
 })
 
 notification = document.createElement('notif');
