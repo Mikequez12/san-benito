@@ -72,4 +72,4 @@ Mesedez, webgueen arazo/feedback-a emateko bakarrik idatzi
 ---
 > Proiektu hau San Benito Ikastolako **ikasle** batek egin du, ez da ofiziala.
 ---
-Sekretu txiki bat: probatu ***?customcol=150*** erabiltzen
+Sekretu txiki bat: probatu ***?force=true*** erabiltzen
