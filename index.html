@@ -1,13 +1,17 @@
 <head>
+  <meta charset="UTF-8">
   <meta name="robots" content="index, follow">
-  <link rel="icon" href="flavicon.ico" type="image/x-icon">
-  <link rel="shortcut icon" href="flavicon.ico" type="image/x-icon">
   <meta name="description" content="San Benito Ikastolako agenda ez-ofiziala">
   <meta name="keywords" content="san benito, ikastola, agenda digital, agenda birtual, agenda">
-  <script src='actual-version.js'></script>
+  <link rel="icon" href="flavicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="flavicon.ico" type="image/x-icon">
   <title>San Benito Ikastolako agenda digitala</title>
-  <script>
-    window.location.href=window.app_version;
-  </script>
+  <script src="actual-version.js"></script>
 </head>
-Redirecting...
+<body>
+  <script>
+    setTimeout(() => {
+      window.location.href = window.app_version;
+    }, 10); // Espera 10ms segundos antes de redirigir
+  </script>
+</body>
