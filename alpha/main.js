@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded',(DOMEvent) => {
     let wait = setInterval(function() {
         if (window.app_version != undefined) {
             if (getURLVariables().force!='true') {
-                window.location.href = window.location.href.replace('pre-alpha',window.app_version);
+                window.location.href = window.location.href.replace('alpha',window.app_version);
             }
             clearInterval(wait)
         }
