@@ -10,12 +10,7 @@ function topbar_login() {
 			redirect = getURLVariables().redirect;
 		}
 	}
-	if (getURLVariables().force == 'true') {
-		force = 'force=true&'
-	} else {
-		force = ''
-	}
-	window.location.href=`${window.project_dir}/login?${force}redirect=${redirect}`;
+	window.location.href=`${window.project_dir}/login?redirect=${redirect}`;
 }
 
 function topbar_main_page() {
@@ -26,12 +21,7 @@ function topbar_main_page() {
 	} else {
 		n = `?${vars}`;
 	};
-	if (getURLVariables().force == 'true') {
-		force = '&force=true'
-	} else {
-		force = ''
-	}
-	window.location.href=`${window.project_dir}${n}${force}`;
+	window.location.href=`${window.project_dir}${n}`;
 }
 
 
@@ -44,12 +34,7 @@ function topbar_ordutegia() {
 	} else {
 		n = `?${vars}`;
 	};
-	if (getURLVariables().force == 'true') {
-		force = '&force=true'
-	} else {
-		force = ''
-	}
-	window.location.href=`${window.project_dir}/ordutegia${n}${force}`;
+	window.location.href=`${window.project_dir}/ordutegia${n}`;
 }
 
 function topbar_ekitaldiak() {
@@ -60,12 +45,7 @@ function topbar_ekitaldiak() {
 	} else {
 		n = `?${vars}`;
 	};
-	if (getURLVariables().force == 'true') {
-		force = '&force=true'
-	} else {
-		force = ''
-	}
-	window.location.href=`${window.project_dir}/ekitaldiak${n}${force}`;
+	window.location.href=`${window.project_dir}/ekitaldiak${n}`;
 }
 
 function topbar_materiala() {}
@@ -78,12 +58,7 @@ function topbar_agenda() {
 	} else {
 		n = `?${vars}`;
 	};
-	if (getURLVariables().force == 'true') {
-		force = '&force=true'
-	} else {
-		force = ''
-	}
-	window.location.href=`${window.project_dir}/agenda${n}${force}`;
+	window.location.href=`${window.project_dir}/agenda${n}`;
 }
 
 function topbar_baliabideak() {
@@ -94,12 +69,7 @@ function topbar_baliabideak() {
 	} else {
 		n = `?${vars}`;
 	};
-	if (getURLVariables().force == 'true') {
-		force = '&force=true'
-	} else {
-		force = ''
-	}
-	window.location.href=`${window.project_dir}/baliabideak${n}${force}`;
+	window.location.href=`${window.project_dir}/baliabideak${n}`;
 }
 
 
