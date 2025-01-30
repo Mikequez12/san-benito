@@ -22,6 +22,7 @@ function topbar_login() {
 	} else {
 		force = ''
 	}
+	alert(`${window.project_dir}/login?${force}${customcol}redirect=${redirect}`);
 	window.location.href=`${window.project_dir}/login?${force}${customcol}redirect=${redirect}`;
 }
 
