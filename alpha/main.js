@@ -4,7 +4,7 @@ if (getURLVariables().force!='true') {
 }
 
 document.addEventListener('DOMContentLoaded',(DOMEvent) => {
-    document.head.appendChild(document.createElement('script')).src='../actual-version.js'
+    document.head.appendChild(document.createElement('script')).src='http://mikequez12.github.io/san-benito/actual-version.js';
 })
 
 notification = document.createElement('notif');
