@@ -1,0 +1,17 @@
+{
+    "name": "San Benito Ikastolako Agenda Digitala",
+    "short_name": "SBI Agenda Digitala",
+    "description": "Egilea: Markel Rosco Matxain",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#878787",
+    "icons": [
+      {
+        "src": "flavicon.ico",
+        "sizes": "256x256",
+        "type": "image/x-icon"
+      }
+    ]
+  }
+  
