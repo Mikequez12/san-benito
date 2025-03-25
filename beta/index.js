@@ -6,7 +6,9 @@ document.addEventListener('DOMContentLoaded',(DOMEvent) => {
 	img.style.border = 'none';
 	img.style.outline = 'none';
 	img.style.width = '100%';
-	img.style.height = '100%';
+	img.style.height = 'calc(100% - 85px)';
+	img.style.boxShadow = 'var(--shadow)';
+	img.style.borderRadius = '5px;'
 	img.src=`https://sanbenitoikastola.eus/sites/default/files/pdf_dokumentuak/${year+1}-01/egutegiak_ikasleak_${year}-${String(year+1).slice(2)}_1.pdf`;
 	img.style.width = '100%';
 })
